@@ -47,6 +47,10 @@ private TodoRepository todoRepository;
         return todoRepository.findById(id).get();
     }
 
+    public void deleteTodo(Long id){
+        todoRepository.deleteById(id);
+    }
+
 
 
     public Todo save(Todo todo){
