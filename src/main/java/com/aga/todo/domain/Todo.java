@@ -19,7 +19,7 @@ public class Todo {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private long id;
+    private Long id;
     private String username;
     private String description;
     private Date targetDate;
