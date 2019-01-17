@@ -1,5 +1,6 @@
-package com.aga.todo;
+package com.aga.todo.testowanie;
 
+import com.aga.todo.testowanie.helloWorldBean;
 import org.springframework.web.bind.annotation.*;
 
 @CrossOrigin(origins = "http://localhost:4200")

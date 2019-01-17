@@ -1,4 +1,4 @@
-package com.aga.todo;
+package com.aga.todo.testowanie;
 
 import lombok.Getter;
 import lombok.Setter;
