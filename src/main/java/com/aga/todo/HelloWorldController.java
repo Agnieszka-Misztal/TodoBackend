@@ -20,4 +20,6 @@ public class HelloWorldController {
     public helloWorldBean helloWorldBeaanparam(@PathVariable String name){
         return  new helloWorldBean(String.format("Hello World yupi. %s ", name));
     }
+
+
 }
